@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.background-container-1 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+:root {
+    --font-color: rgb(76, 75, 75);
+    --font-weight: 500;
+}
+
+.tds-icon {
+    height: 100px;
+    height: 20px;
+    z-index: 2;
+}
+
+.teslalogo {
+    height: 20px;
+    width: 120px;
+    margin: 1rem 0 0 3.5rem;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    padding: 0 20px;
+}
+
+.center-nav {
+    flex: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-nav {
+    flex: 3;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    margin: 0 0.5rem
+}
+
+.nav-list>a {
+    text-decoration: none;
+    width: 2rem;
+    color: white;
+    padding: 6px 7px;
+    font-weight: var(--font-weight);
+    font-size: 1rem;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+}
+
+.nav-list>a:hover {
+    background-color: rgba(128, 128, 128, 0.15);
+    border-radius: 10px;
+}
+
+.main-container-1 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    top: 14%;
+    left: 35%;
+}
+
+.header-container h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+.header-container p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-container h4 {
+    color: white;
+}
+
+.buttons {
+    position: absolute;
+    top: 100%;
+
+}
+
+.btn1,
+.btn2 {
+    margin: 10px;
+    height: 40px;
+    width: 15rem;
+    border-radius: .3rem;
+    text-decoration: none;
+    justify-content: center;
+    padding-right: 7px;
+    background-color: rgb(60, 133, 206);
+    color: white;
+    margin-right: 15px;
+    height: 30px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn2 {
+    background-color: white;
+    color: rgb(28, 26, 26);
+
+}
+
+.background-container-2 {
+    background-image: url("./IMAGES/Homepage-Model-Y-Desktop-US-v2.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container-2 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    left: 621px;
+    top: 14%;
+}
+
+.background-container-3 {
+    background-image: url("./IMAGES/Homepage-Model-X-Desktop-US.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container-4 {
+    background-image: url("./IMAGES/Homepage-Model-S-Desktop-US.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container-5 {
+    background-image: url("./IMAGES/Homepage-Cybertruck-Desktop.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container-6 {
+    background-image: url("./IMAGES/Homepage-SolarPanels-01-Desktop.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container-7 {
+    background-image: url("./IMAGES/Homepage-SolarRoof-Desktop-US.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container-8 {
+    background-image: url("./IMAGES/Homepage-Powerwall-Desktop-US.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container-9 {
+    background-image: url("./IMAGES/Homepage-Accessories-Desktop-US.avif");
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.single-button{
+    margin-left: 75px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.footer-1 {
+    color: rgb(210, 203, 203);
+    font-size: 12px;
+    width: 700px;
+    margin: auto;
+    padding-top: 30px;
+
+
+}
+.footer-1 p {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+}
+.footer-1 a {
+    color: white;
+}
+.footer-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-2 a {
+    color: rgb(210, 203, 203);
+}
+.list>a {
+    text-decoration: none;
+    width: 2rem;
+    color: white;
+    padding: 6px 7px;
+    font-weight: var(--font-weight);
+    font-size: 12px;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+}
+
+
+.btn1-black,
+.btn2-black {
+    margin: 10px;
+    height: 40px;
+    width: 15rem;
+    border-radius: .3rem;
+    text-decoration: none;
+    justify-content: center;
+    padding-right: 7px;
+    background-color: rgb(38, 33, 33);
+    color: white;
+    margin-right: 15px;
+    height: 30px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn1-black{
+    border-top: 1px solid wheat;
+}
